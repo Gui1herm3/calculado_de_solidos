@@ -12,13 +12,13 @@ function calcularCubo() {
 
 
 function converterParaCelsius() {
-    // Obter o valor da temperatura em Fahrenheit fornecida pelo usuário
+    // Obter o valor da temperatura 
     var temperaturaFahrenheit = document.getElementById('inputFahrenheit').value;
 
     // Converter a temperatura para Celsius usando a fórmula: (F - 32) * 5/9
     var temperaturaCelsius = (temperaturaFahrenheit - 32) * 5 / 9;
 
-    // Exibir o resultado na página HTML
+    // Exibir o resultado 
     document.getElementById('resultado2').innerHTML = 'A temperatura em Celsius(C) é: ' + temperaturaCelsius.toFixed(2) + ' °C';
 }
 
@@ -34,11 +34,11 @@ function calcularTriangulo() {
     altura = parseFloat(altura);
 
 
-    // Calculando a área do triângulo usando a fórmula padrão de área de triângulo
+    // Calculando a área do triângulo 
     var area = (base * altura) / 2;
 
 
-    // Exibindo a área calculada na página
+    // Exibindo a área calculada 
     document.getElementById("resultado3").innerHTML = "Área do triângulo: " + area.toFixed(2);
 }
 
